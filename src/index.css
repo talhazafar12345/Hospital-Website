@@ -93,7 +93,7 @@ body {
     background-image: url("https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/banner-bg-13.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 800px;
     position: relative;
 
 }
@@ -160,6 +160,106 @@ body {
     color: #92887E;
     width: 90%;
     line-height: 1.5;
+}
+
+.hero3-para h2{
+font-size: 24px;
+}
+
+.hero3-para p{
+font-size: 17px;
+color: #9F9193;
+width: 95%;
+line-height: 1.5;
+padding-top: 10px;
+
+}
+
+.hero3-font i{
+font-size: 29px;
+}
+
+
+.hero3-font1 i{
+font-size: 29px;
+}
+
+
+.hero3-font2 i{
+font-size: 29px;
+}
+
+.hero3-font{
+background-color: #ED9720;
+width: 70px;
+height:70px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+border-radius: 50%;
+color: white;
+margin-top: -65px;
+}
+
+
+.hero3-font1{
+background-color: #3A6CF0;
+width: 70px;
+height:70px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+border-radius: 50%;
+color: white;
+margin-top: -65px;
+}
+
+.hero3-font2{
+background-color: #55B081;
+width: 70px;
+height:70px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+border-radius: 50%;
+color: white;
+margin-top: -65px;
+}
+
+
+
+.hero3-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+background-color: white;
+width: 380px;
+padding-top: 20px;
+box-shadow: 5px 5px 10px gray;
+height: 200px;
+padding-left: 20px;
+border-radius: 20px;
+z-index: 999;
+margin-top: -90px;
+transition: all 0.3s ease;
+
+
+}
+
+.hero3-flex:hover {
+    transform: translateY(-5px);
+}
+
+
+.hero3-flex2{
+display: flex;
+justify-content: center;
+gap: 20px;
+
 }
 
 
@@ -278,8 +378,8 @@ body {
 
     .hero2-image {
         background-size: cover;
-        background-position: 43% center;
-        height: 560px;
+        background-position: 42% center;
+        height: 540px;
     }
 
     .hero2-para1 {
@@ -299,6 +399,30 @@ body {
     .hero2-flex {
         top: 20%;
         left: 5%;
+    }
+
+    .hero3-flex2{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    }
+
+    .hero3-flex{
+    width: 82%;
+    margin-top: 0;
+    position: relative;
+    top: -40px;
+    z-index: 0;
+    height: 170px;
+    padding-bottom: 25px;
+    }
+
+    .hero3-para p{
+    font-size: 16px;
+    }
+
+    .hero3-para h2{
+    font-size: 20px;
     }
 
 
