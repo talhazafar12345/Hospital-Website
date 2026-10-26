@@ -291,8 +291,13 @@ gap: 20px;
     z-index: 2;
 }
 
-.hero4-image2 img {
+
+.hero4-image3 img{
     width: 280px;
+}
+
+.hero4-image2 img {
+    width:340px;
 }
 
 
@@ -501,7 +506,7 @@ margin-left: 230px;
 
 
     .hero4-image2 img{
-    width: 300px;
+    width: 320px;
     margin: auto;
     }
 
@@ -509,11 +514,12 @@ margin-left: 230px;
       .hero4-image3{
     text-align: center;
     left: 40px;
+    top:53%;
     }
 
 
     .hero4-image3 img{
-    width: 100%;
+    width:95%;
     margin: auto;
     }
 
