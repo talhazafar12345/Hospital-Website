@@ -243,10 +243,9 @@ box-shadow: 5px 5px 10px gray;
 height: 200px;
 padding-left: 20px;
 border-radius: 20px;
-z-index: 999;
-margin-top: -90px;
 transition: all 0.3s ease;
-
+position: relative;
+bottom: 50px;
 
 }
 
@@ -261,6 +260,56 @@ justify-content: center;
 gap: 20px;
 
 }
+
+
+
+
+.hero4-flex {
+    position: relative;
+    width: 450px;
+    height: 500px;
+}
+
+
+
+.hero4-image img {
+    width: 350px;
+}
+
+.hero4-image2 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 2;
+}
+
+
+.hero4-image3 {
+    position: absolute;
+    top: 50%;
+    left: -130px;
+    z-index: 2;
+}
+
+.hero4-image2 img {
+    width: 280px;
+}
+
+
+.hero4-flex2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.hero5-para h1{
+font-size: 40px;
+margin-left: 230px;
+}
+
+
 
 
 
@@ -424,6 +473,50 @@ gap: 20px;
     .hero3-para h2{
     font-size: 20px;
     }
+
+
+    .hero4-flex2{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    }
+
+
+    .hero4-image{
+    text-align: center;
+    }
+
+
+    .hero4-image img{
+    width: 60%;
+    margin: auto;
+    }
+
+
+    .hero4-image2{
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+
+    .hero4-image2 img{
+    width: 300px;
+    margin: auto;
+    }
+
+
+      .hero4-image3{
+    text-align: center;
+    left: 40px;
+    }
+
+
+    .hero4-image3 img{
+    width: 100%;
+    margin: auto;
+    }
+
 
 
 
