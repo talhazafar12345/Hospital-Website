@@ -47,15 +47,6 @@ function Hero4() {
       </div>
 
 
-
-
-
-
-
-
-
-
-
       </div>
 
   

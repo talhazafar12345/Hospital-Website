@@ -367,7 +367,7 @@ body {
 }
 
 .hero4-para5 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -608,6 +608,9 @@ body {
         width: 10px;
     }
 
+    .hero4-para5{
+    margin-top: 10px;
+    }
 
 
 
