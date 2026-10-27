@@ -266,38 +266,48 @@ gap: 20px;
 
 .hero4-flex {
     position: relative;
-    width: 450px;
+    width: 100%;
     height: 500px;
 }
 
 
 
 .hero4-image img {
-    width: 350px;
+    width: 320px;
+}
+
+.hero4-image {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
 }
 
 .hero4-image2 {
     position: absolute;
-    top: 20px;
-    left: 30px;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 2;
 }
 
 
 .hero4-image3 {
     position: absolute;
-    top: 50%;
-    left: -130px;
+    top: 60%;
+    right:40%;
     z-index: 2;
 }
 
 
 .hero4-image3 img{
-    width: 280px;
+    width: 240px;
 }
 
 .hero4-image2 img {
-    width:340px;
+    width:310px;
+
 }
 
 
@@ -305,14 +315,66 @@ gap: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 0;
+margin-top: 50px;
+
+
 }
 
 
 
-.hero5-para h1{
-font-size: 40px;
-margin-left: 230px;
+
+.hero4-para p{
+color: #3678F5;
+font-size: 18px;
+font-weight: bolder;
+
 }
+
+.hero4-para h1{
+width: 86%;
+line-height: 1.4;
+margin-top: 10px;
+
+}
+
+
+.hero4-para3 p{
+width: 80%;
+line-height: 1.4;
+font-size: 20px;
+}
+
+.hero4-para2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.sp1 {
+    height: 60px;
+    width: 5px;
+    background-color: #3678F5;
+}
+
+.hero4-para4 p{
+margin-top: 20px;
+width: 90%;
+line-height: 1.5;
+color: #7E7E7E;
+}
+
+.hero4-para5{
+margin-top: 30px;
+}
+
+
+
+
+
+
 
 
 
@@ -484,18 +546,24 @@ margin-left: 230px;
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    gap: 60px;
     }
 
 
     .hero4-image{
     text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
     }
-
 
     .hero4-image img{
-    width: 60%;
     margin: auto;
+    width: 300px;
     }
+
+
 
 
     .hero4-image2{
@@ -506,22 +574,53 @@ margin-left: 230px;
 
 
     .hero4-image2 img{
-    width: 320px;
+    width: 300px;
     margin: auto;
     }
 
 
-      .hero4-image3{
+     .hero4-image3{
     text-align: center;
-    left: 40px;
-    top:53%;
+   right: 28%;
+    top: 55%;
+    
     }
 
 
     .hero4-image3 img{
-    width:95%;
+     width: 250px;
     margin: auto;
     }
+
+
+    .hero4-para{
+    margin-left: 30px;
+    }
+
+    .hero4-para h1{
+    font-size: 23px;
+    width: 95%;
+    }
+
+    .hero4-para3 p{
+    font-size: 18px;
+    width: 95%;
+    }
+
+    .hero4-para4 p{
+    font-size: 18px;
+    width: 95%;
+    }
+
+    .sp1{
+        height: 100px;
+        width: 10px;
+    }
+
+   
+
+
+    
 
 
 
