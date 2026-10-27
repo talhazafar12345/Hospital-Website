@@ -20,7 +20,7 @@ function Hero3() {
         </div>
         <div className="hero3-para">
           <h2>Find Clinic</h2>
-          <p>Lorem ipsum dolor are ectetur. Volutpat imperdiet sollicitudin a porttitor malesuada vitae.</p>
+          <p>Lorem ipsum dolor are ectetur. Volutpat sollicitudin porttitor malesuada vitae.</p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ function Hero3() {
         </div>
         <div className="hero3-para">
           <h2>Make Appointment</h2>
-          <p>Lorem ipsum dolor are ectetur. Volutpat imperdiet sollicitudin a porttitor malesuada vitae.</p>
+          <p>Lorem ipsum dolor are ectetur. Volutpat sollicitudin porttitor malesuada vitae.</p>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ function Hero3() {
         </div>
         <div className="hero3-para">
           <h2>Get the Schedule</h2>
-          <p>Lorem ipsum dolor are ectetur. Volutpat imperdiet sollicitudin a porttitor malesuada vitae.</p>
+          <p>Lorem ipsum dolor are ectetur. Volutpat sollicitudin  porttitor malesuada vitae.</p>
         </div>
       </div>
 
