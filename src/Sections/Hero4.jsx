@@ -20,6 +20,18 @@ function Hero4() {
         <div className="hero4-image3">
           <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/about-doctor-familuy.png" alt="" />
         </div>
+
+        <div className="hero4-image7">
+          <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2026/02/shape__image.png" alt="" />
+        </div>
+
+        <div className="hero4-image8">
+          <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/white_dots.png" alt="" />
+        </div>
+
+        <div className="hero4-image9">
+          <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/about-black-shape.png" alt="" />
+        </div>
       </div>
 
 
