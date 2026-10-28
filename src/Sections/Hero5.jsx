@@ -21,9 +21,7 @@ function Hero5() {
 
 
 
-            <div className="hero5-flex">
-
-           
+          <div className="hero5-flex">
         <div className="hero5-para4">
           <div className="hero5-para3">
             <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2019/01/eye-p.png" alt="" />
