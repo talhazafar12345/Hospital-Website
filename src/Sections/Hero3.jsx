@@ -44,10 +44,7 @@ function Hero3() {
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur debitis</p>
         </div>
       </div>
-
        </div>
-
-
     </div>
   )
 }

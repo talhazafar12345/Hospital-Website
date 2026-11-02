@@ -95,9 +95,14 @@ body {
     background-size: cover;
     background-position: center;
     height: 800px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
+
+
 
 .hero2-flex {
     background-color: white;
@@ -108,9 +113,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    position: absolute;
-    top: 25%;
-    left: 5%;
+    margin-right: 870px;
+    
 
 }
 
@@ -124,17 +128,20 @@ body {
     width: 25px;
 }
 
-.hero2-para1 {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-}
+
+
 
 .hero2-para1 h1 {
     font-size: 50px;
     width: 90%;
     line-height: 1.3;
 
+}
+
+
+.hero2-para1{
+margin-right: 160px;
+margin-top: 20px;
 }
 
 .hero2-para1 button {
@@ -437,7 +444,7 @@ margin-top: 40px;
 
 .hero4-image7{
 position: absolute;
-right: 24%;
+right: 28%;
 z-index: 2;
 top: 15%;
 
@@ -462,7 +469,7 @@ background-image: url("https://www.radiustheme.com/demo/wordpress/themes/medilin
 background-size: cover;
 background-position: center;
 height: auto;
-padding-bottom: 50px;
+padding-bottom: 90px;
 background-color: #EEF3FF;
 margin-top: 140px;
 
@@ -554,25 +561,59 @@ margin-top: 50px;
 
 
 
+.hero6-image2 img{
+width: 360px;
+
+}
+
+
+.hero6-flex{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+margin-top: 100px;
+margin-left: 100px;
+}
+
+
+.hero6-para2 .hero6-subpara1{
+color: black;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.hero6-para2 h1{
+padding-top: 10px;
+}
 
 
 
+.hero6-para2 .hero6-subpara{
+color: #B3A38E;
+font-size: 16px;
+line-height: 1.5;
+padding-top: 10px;
+width: 70%;
 
+}
 
+.hero6-para2 button{
+margin-top: 20px;
+width: 170px;
+height: 40px;
+background-color: #3A6CF0;
+color: white;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.hero6-para2 button:hover{
+background-color: transparent;
+border: 1px solid #3A6CF0 ;
+color:#3A6CF0 ;
+}
 
 
 
@@ -676,7 +717,6 @@ margin-top: 50px;
     .navBtn button {
         background-color: white;
         color: black;
-        width: 140px;
     }
 
     .navBtn button:hover {
@@ -688,11 +728,14 @@ margin-top: 50px;
         background-size: cover;
         background-position: 42% center;
         height: 540px;
+        
     }
 
     .hero2-para1 {
         top: 30%;
-        left: 7%;
+        left: 8%;
+        margin-right: 0;
+        margin-left: 30px;
     }
 
     .hero2-para1 h1 {
@@ -702,11 +745,15 @@ margin-top: 50px;
 
     .hero2-para1 p {
         font-size: 18px;
+        width: 90%;
     }
 
     .hero2-flex {
-        top: 20%;
-        left: 5%;
+
+        margin-right: auto;
+        margin-left: 30px;
+        
+        
     }
 
     .hero3-flex2 {
@@ -826,8 +873,8 @@ margin-top: 50px;
 
 .hero4-image7{
 position: absolute;
-right: 12%;
-z-index: 1;
+right: 14%;
+z-index: 2;
 top: 15%;
 
 }
@@ -884,6 +931,51 @@ margin-top: 28px;
 
 .hero5-para2 h1{
 font-size: 25px;
+}
+
+
+.hero6-flex{
+flex-direction: column;
+align-items: center;
+margin-left: 0;
+margin-top: 90px;
+}
+
+
+.hero6-image2{
+    text-align: center;
+}
+
+
+.hero6-image2 img{
+width: 80%;
+margin: auto;
+}
+
+
+.hero6-para2 .hero6-subpara1{
+color: black;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.hero6-para2 .hero6-subpara{
+font-size: 16px;
+line-height: 1.5;
+width: 95%;
+}
+
+.hero6-para2 h1{
+font-size: 23px;
+width: 90%;
+}
+
+.hero6-para2{
+margin-left: 30px;
+}
+
+.hero6-para2 button{
+font-size: 18px;
 }
 
 

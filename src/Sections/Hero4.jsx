@@ -77,7 +77,6 @@ function Hero4() {
           <h2>24/7 Emergency Support</h2>
         </div>
          </div>
-
           <div className="flea">
         <div className="check">
           <i class="fa-solid fa-check"></i>
@@ -92,39 +91,8 @@ function Hero4() {
          </div>
          </div>
            </div>
-
-        
-        
-
-     
-       
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
-
-
     </div>
   )
 }
-
 export default Hero4
