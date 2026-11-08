@@ -19,8 +19,6 @@ function Hero5() {
         </div>
 
 
-
-
           <div className="hero5-flex">
         <div className="hero5-para4">
           <div className="hero5-para3">

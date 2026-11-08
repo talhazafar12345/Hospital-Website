@@ -7,17 +7,11 @@
 function Hero6() {
   return (
 
-       <div className="hero6-main">
+       <div>
 
 
 
-       
-
-       
-
-
- 
-       
+    
        <div className="hero6-flex">
     <div className="hero6-image2">
         <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2018/11/about1.png" alt="" />
@@ -31,33 +25,6 @@ function Hero6() {
 
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
        </div>
 
   )
