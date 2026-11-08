@@ -54,7 +54,7 @@ function Hero1() {
                
                 </div>
 
-                 <div className="navBtn hero1btn">
+                 <div className="navBtn">
                <button><i class="fa-regular fa-calendar"></i> Appointment</button>
                 </div>
                 <div onClick={openMenu} className="hamburger">

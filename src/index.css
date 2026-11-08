@@ -43,7 +43,7 @@ body {
     background-color: #3A6CF0;
     color: white;
     border: none;
-    width: 160px;
+    width: 140px;
     height: 40px;
     font-size: 16px;
     font-weight: bolder;
@@ -57,7 +57,7 @@ body {
 .link {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bolder;
 }
 
@@ -284,7 +284,7 @@ margin-top: 20px;
 }
 
 .hero4-image2 img {
-    width: 230px;
+    width: 290px;
     position: absolute;
     top: 0;
    left: 50%;
@@ -308,6 +308,21 @@ left: 50%;
 transform: translate(-20px);
 }
 
+.hero4-image6 img{
+position: absolute;
+top: 40px;
+left: 50%;
+transform: translate(50px);
+
+}
+
+.hero4-image7 img{
+position: absolute;
+top: 170px;
+left: 50%;
+transform: translate(-140px);
+
+}
 .hero4-para h2{
 color: #3678F5;
 font-size: 20px;
@@ -331,8 +346,9 @@ margin-top: 10px;
 .hero4-para3 p{
 font-size: 19px;
 width: 700px;
-margin-top: 20px;
+margin-top: 10px;
 color: #6F6F6F;
+line-height: 1.4;
 }
 
 .hero4-para5 i{
@@ -725,13 +741,14 @@ padding-bottom: 50px;
         color: black;
     }
 
-    .navBtn {
-        margin: 10px -1px;
+    .navBar > .navBtn{
+    display: none;
     }
 
     .navBtn button {
         background-color: white;
         color: black;
+        margin-top: 15px;
     }
 
     .navBtn button:hover {
