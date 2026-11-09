@@ -644,6 +644,89 @@ height: auto;
 padding-bottom: 50px;
 }
 
+.hero9-para1{
+text-align: center;
+margin-top: 60px;
+}
+
+table {
+    width:1180px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #333333;
+}
+
+th{
+    border: 2px solid white;
+    height: 80px;
+    font-size: 18px;
+}
+
+td{
+        border: 2px solid white;
+        height: 80px;
+        color: #517EF0;
+        font-weight: bolder;
+        font-size: 18px;
+}
+
+thead {
+    background-color: #3058DB;
+    color: white;
+}
+
+.hero9-table{
+margin-top: 60px;
+}
+
+
+.hero10-para{
+background-image: url("https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2019/02/c3.jpg");
+background-size: cover;
+height: 300px;
+margin-top: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.hero10-para1 h2{
+font-size: 28px;
+color: white;
+}
+
+
+.hero10-para2 h1{
+font-size: 32px;
+color: white;
+margin-top: 20px;
+}
+
+
+.hero10-btn button{
+margin-top: 30px;
+background-color: transparent;
+width: 210px;
+height: 50px;
+color: white;
+border: 1px solid white;
+font-size: 16px;
+font-weight: bolder;
+border-radius: 5px;
+}
+
+.hero10-btn button:hover{
+background-color: white;
+color: #3A6CF0;
+}
+
+
+
+
+
+
 
 
 
@@ -997,6 +1080,64 @@ font-size: 26px;
 .hero7-para h3{
 font-size: 16px;
 }
+
+.hero9-para1 h1{
+font-size: 25px;
+}
+
+
+ table {
+        width: 90%;
+        min-width: 790px;
+    }
+
+    th {
+        height: 65px;
+        font-size: 17px;
+      
+    
+    }
+
+    td {
+        height: 65px;
+        font-size: 17px;
+    }
+
+    .hero9-table {
+        margin-top: 30px;
+        overflow-x: auto;
+    }
+
+
+    .hero10-para{
+    text-align: center;
+    margin-top: 90px;
+    }
+
+
+    .hero10-para h2{
+    font-size: 22px;
+    }
+
+     .hero10-para2 h1{
+    font-size: 21px;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    }
+
+    .hero10-btn button{
+    font-size: 16px;
+    }
+
+
+
+
+
+    
+
+
 
 
 
