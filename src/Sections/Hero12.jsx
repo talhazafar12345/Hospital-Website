@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 function Hero12() {
     const testimonials = [
         {
-            name: "Sara Willaims",
+            name: "Sara Williams",
             role: "Web Developer",
             text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt iure aperiam minus recusandae aliquam quia, deleniti assumenda, omnis amet, quos cum. Nam illum sit minima.",
             img: "https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/test_2.png",
@@ -21,19 +21,19 @@ function Hero12() {
             img: "https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/test_3.png",
         },
         {
-            name: "Jenefar Smith",
+            name: "Kate Williams",
             role: "Entrepreneur",
             text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt iure aperiam minus recusandae aliquam quia, deleniti assumenda, omnis amet, quos cum. Nam illum sit minima.",
             img: "https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/test_1.png",
         },
         {
-            name: "Sarah Smith",
+            name: "Robert Adison",
             role: "Marketer",
             text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt iure aperiam minus recusandae aliquam quia, deleniti assumenda, omnis amet, quos cum. Nam illum sit minima.",
             img: "https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/test_3.png",
         },
         {
-            name: "David Brown",
+            name: "Kate Williams",
             role: "CEO",
             text:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt iure aperiam minus recusandae aliquam quia, deleniti assumenda, omnis amet, quos cum. Nam illum sit minima.",
             img: "https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/test_1.png",
@@ -71,6 +71,11 @@ function Hero12() {
                         spaceBetween: 0,
                     },
                     1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 0,
+                    },
+
+                     10234: {
                         slidesPerView: 3,
                         spaceBetween: 0,
                     },
