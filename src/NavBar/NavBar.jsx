@@ -11,6 +11,7 @@ import Hero10 from "../Sections/Hero10"
 import Hero11 from "../Sections/Hero11"
 import Hero12 from "../Sections/Hero12"
 import Hero13 from "../Sections/Hero13"
+import Footer from "../Footer/Footer"
 
 
 
@@ -31,7 +32,7 @@ function NavBar() {
      <Hero10 />
      <Hero11 />
      <Hero12 />
-     <Hero13 />
+     <Footer />
       
     </div>
   )

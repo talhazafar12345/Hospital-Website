@@ -4,7 +4,7 @@
 
 function Hero13() {
     return (
-        <div className="hero13">
+        <div className="hero13 hero31">
             <div className="hero13-container">
 
                 <div className="hero13-about">
@@ -64,7 +64,7 @@ function Hero13() {
                     </div>
 
                     <div className="hero13-contact-item">
-                        <div className="hero13-icon">☎</div>
+                        <div className="hero13-icon"><i class="fa-solid fa-phone"></i></div>
                         <div>
                             <span>Give Us a Call</span>
                             <p>+59888555</p>
@@ -72,7 +72,7 @@ function Hero13() {
                     </div>
 
                     <div className="hero13-contact-item">
-                        <div className="hero13-icon">♧</div>
+                        <div className="hero13-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
                         <div>
                             <span>Visit Our Location</span>
                             <p>First Avenue, London</p>
