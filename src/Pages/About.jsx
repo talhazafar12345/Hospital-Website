@@ -8,8 +8,6 @@ import { useEffect } from "react"
 
 
 function About() {
-
-
 useEffect(()=>{
 window.scrollTo(0,0)
 })
@@ -20,10 +18,8 @@ window.scrollTo(0,0)
     <div className="ab7">
     <Hero7 />
     </div>
-
     <div className="abft">
     <Footer />
-
     </div>
 
 

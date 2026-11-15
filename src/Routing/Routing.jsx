@@ -4,6 +4,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from '../Pages/Home'
 import About from '../Pages/About'
+import Department from '../Pages/Department'
 
 
 function Routing() {
@@ -16,6 +17,11 @@ function Routing() {
         {
             path: "/about-page",
             element: <About />
+        },
+
+         {
+            path: "/dept-page",
+            element: <Department />
         },
 
     

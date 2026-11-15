@@ -1020,6 +1020,54 @@ thead {
 
 
 
+.hero16-image{
+background-color: white;
+width: 280px;
+height: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-bottom: 50px;
+transition: all 0.3s ease;
+
+
+}
+
+
+.hero16-para{
+background-color: #F1F7FA;
+height: 740px;
+padding-top: 120px;
+text-align: center;
+}
+
+.hero16-image img{
+width: 100%;
+}
+
+
+.hero16-image:hover{
+transform: translateY(-5px);
+
+}
+
+.hero16-para2 h2{
+    padding-top: 50px;
+}
+
+.hero16-flex{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.flex16{
+margin-top: 20px;
+}
+
+
+
+
 
 
 
@@ -1636,6 +1684,37 @@ thead {
     margin-top: 110px;
     }
 
+    .hero16-flex{
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .flex16{
+           flex-direction: column;
+    align-items: center;
+    }
+
+    .hero16-para{
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    }
+
+    .hero16-image{
+    width: 85%;
+    padding-bottom: 60px;
+    }
+
+    .hero16-para2 h2{
+    padding-top: 60px;
+    }
+
+    .hero16-image img{
+    width: 100%;
+    }
+
+   
+ 
 
 
 
