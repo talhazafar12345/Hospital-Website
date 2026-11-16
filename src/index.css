@@ -1075,6 +1075,7 @@ margin-top: 20px;
 .hero18-para{
 text-align: center;
 margin-top: 80px;
+padding-top: 40px;
 }
 
 .hero18-para h1{
@@ -1088,20 +1089,30 @@ text-align: center;
 
 
 .hero18-main{
-margin-top: 60px;
+margin-top: 20px;
 }
 
 
 .hero18-inp input{
-width: 1200px;
+width: 400px;
 height: 40px;
 margin: 15px;
+font-size: 18px;
+border-radius: 20px;
 border: none;
-font-size: 20px;
-border-bottom: 3px solid black;
+padding-left: 10px;
 }
 
 
+.hero18-all{
+background-color: #F1F7FA;
+width: 500px;
+margin: auto;
+padding-bottom: 40px;
+border-radius: 30px;
+box-shadow: 10px 10px 10px gray;
+margin-top: 120px;
+}
 
 
 .hero18-btn{
@@ -1116,41 +1127,46 @@ height: 40px;
 font-size: 17px;
 border: none;
 border-radius: 10px;
-margin-top: 20px;
+margin-top: 40px;
 }
 
 .error {
     color: red;
     text-align: left;
     width: 1200px;
-    margin: auto;
-    
-}
+    margin-left: 55px;
 
-.hero18-map{
-text-align: center;
-margin-top: 80px;
 }
-
-.hero18-map iframe{
-width: 1140px;
-height: 500px;
-border: none;
-}
-
 
 
 .hero20{
-margin-top: 50px;
+margin-top: 110px;
 text-align: center;
+padding-top: 40px;
+
 }
 
+
 .hero20-inp input{
-width: 1200px;
+width: 540px;
+height: 40px;
 border: none;
-border-bottom: 3px solid black;
-font-size: 20px;
-margin: 20px;
+border-radius: 20px;
+font-size: 18px;
+margin:17px;
+padding-left: 20px;
+
+}
+
+
+.hero20-all{
+background-color: #F1F7FA;
+width: 650px;
+margin: auto;
+padding-bottom: 40px;
+border-radius: 20px;
+box-shadow: 10px 10px 10px gray;
+
 }
 
 
@@ -1809,13 +1825,11 @@ margin: 20px;
     }
 
     .hero18-inp input{
-    width: 80%;
+    width: 81%;
     font-size: 18px;
     }
 
-    .error{
-    width: 80%;
-    }
+   
 
     .hero18-main{
 
@@ -1825,18 +1839,19 @@ margin: 20px;
 
     
     .hero18-para h1{
-    font-size: 28px;
+    font-size: 24px;
 
     }
 
      .hero20-inp input{
     width: 80%;
     font-size: 18px;
+    padding-left:10px;
     }
 
     .hero18-btn button{
 font-size: 16px;
-margin-top: 40px;
+margin-top: 30px;
 }
 
 
@@ -1844,6 +1859,33 @@ margin-top: 40px;
     width: 88%;
     height: 300px;
     }
+
+
+    .hero18-all{
+    width: 87%;
+    box-shadow: 2px 2px 5px gray;
+
+    }
+
+      .hero20-all{
+    width: 87%;
+    box-shadow: 2px 2px 5px gray;
+
+    }
+
+    .hero18-appo h1{
+    font-size: 27px;
+    }
+
+    .hero18-all{
+    margin-top: 90px;
+    }
+    .error{
+    width: 100%;
+    margin-left: 38px;
+    }
+
+    
 
 
 

@@ -60,9 +60,14 @@ return
 }
 
   return (
-    <div>
+    <div className="hero20-all">
     <div className="hero20">
         <form onSubmit={submit}>
+
+            <div className="hero18-appo">
+                <h1>Appointment Form</h1>
+            </div>
+            <br /> <br />
         <div className="hero20-inp">
             <input value={data.name} onChange={getInp} placeholder="Enter your name" type="text" name="name" id="" />
             {error.name && <p className="error">{error.name}</p>}
@@ -86,7 +91,6 @@ return
 
         </div>
 
-        
         <div className="hero20-inp">
             <input value={data.date} onChange={getInp} type="date" name="date" id="" />
            {error.date && <p className="error">{error.date}</p>}
