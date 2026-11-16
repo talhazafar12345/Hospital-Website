@@ -1029,8 +1029,14 @@ align-items: center;
 flex-direction: column;
 padding-bottom: 50px;
 transition: all 0.3s ease;
+border-radius: 10px;
 
+}
 
+.hero16-image img{
+border-radius: 10px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
 }
 
 
@@ -1064,6 +1070,95 @@ gap: 20px;
 .flex16{
 margin-top: 20px;
 }
+
+
+.hero18-para{
+text-align: center;
+margin-top: 80px;
+}
+
+.hero18-para h1{
+font-size: 30px;
+}
+
+.hero18-inp{
+text-align: center;
+
+}
+
+
+.hero18-main{
+margin-top: 60px;
+}
+
+
+.hero18-inp input{
+width: 1200px;
+height: 40px;
+margin: 15px;
+border: none;
+font-size: 20px;
+border-bottom: 3px solid black;
+}
+
+
+
+
+.hero18-btn{
+text-align: center;
+}
+
+.hero18-btn button{
+background-color: #3058DB;
+color: white;
+width: 160px;
+height: 40px;
+font-size: 17px;
+border: none;
+border-radius: 10px;
+margin-top: 20px;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    width: 1200px;
+    margin: auto;
+    
+}
+
+.hero18-map{
+text-align: center;
+margin-top: 80px;
+}
+
+.hero18-map iframe{
+width: 1200px;
+height: 500px;
+border: none;
+}
+
+
+
+.hero20{
+margin-top: 50px;
+text-align: center;
+}
+
+.hero20-inp input{
+width: 1200px;
+border: none;
+border-bottom: 3px solid black;
+font-size: 20px;
+margin: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1712,6 +1807,49 @@ margin-top: 20px;
     .hero16-image img{
     width: 100%;
     }
+
+    .hero18-inp input{
+    width: 80%;
+    font-size: 18px;
+    }
+
+    .error{
+    width: 80%;
+    }
+
+    .hero18-main{
+
+    margin-top: 30px;
+        
+    }
+
+    
+    .hero18-para h1{
+    font-size: 28px;
+
+    }
+
+     .hero20-inp input{
+    width: 80%;
+    font-size: 18px;
+    }
+
+    .hero18-btn button{
+font-size: 16px;
+margin-top: 40px;
+}
+
+
+    .hero18-map iframe{
+    width: 88%;
+    height: 300px;
+    }
+
+
+
+
+
+
 
    
  

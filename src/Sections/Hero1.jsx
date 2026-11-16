@@ -5,10 +5,15 @@
 
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Hero1() {
 
 
+  const navigate = useNavigate()
 
+  const transfer=()=>{
+ navigate("/app-page")
+  }
 
 
 
@@ -50,12 +55,12 @@ function Hero1() {
                     <Link to={"/"} className="link">Home</Link>
                     <Link to={"/about-page"} className="link">About</Link>
                     <Link to={"/dept-page"} className="link">Departments</Link>
-                    <Link className="link">Contact</Link>
+                    <Link to={"/contact-page"} className="link">Contact</Link>
                
                 </div>
 
                  <div className="navBtn">
-               <button><i class="fa-regular fa-calendar"></i> Appointment</button>
+               <button onClick={transfer}><i class="fa-regular fa-calendar"></i> Appointment</button>
                 </div>
                 <div onClick={openMenu} className="hamburger">
                     ☰
@@ -85,7 +90,7 @@ function Hero1() {
                 </Link>
 
                  <div className="navBtn">
-               <button><i class="fa-regular fa-calendar"></i> Appointment</button>
+               <button onClick={transfer}><i class="fa-regular fa-calendar"></i> Appointment</button>
                 </div>
             </div>
         </div>
