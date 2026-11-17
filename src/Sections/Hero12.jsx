@@ -81,8 +81,6 @@ function Hero12() {
                     },
                     
                 }}
-                
-   
             >
                 {testimonials.map((item, index) => (
                     <SwiperSlide key={index}>

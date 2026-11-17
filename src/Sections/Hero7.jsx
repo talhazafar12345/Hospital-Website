@@ -14,8 +14,6 @@ function Hero7() {
 
 
      <div className="hero7-flex">
-
-   
     <div className="hero7-image">
       <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2025/08/team_n14.1.webp" alt="" />
       <div className="hero7-para2">

@@ -7,7 +7,7 @@ function Hero4() {
     <div className="hero4-flex">
 
     <div className="hero4-image">
-      <img src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/about_doctor.png" alt="" />
+      <img className="hero4-img" src="https://www.radiustheme.com/demo/wordpress/themes/medilink/wp-content/uploads/2023/06/about_doctor.png" alt="" />
 
 
        <div className="hero4-image2">
