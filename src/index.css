@@ -995,8 +995,9 @@ thead {
     font-size: 19px;
 }
 
+
 .hero14-para6 p {
-    width: 910px;
+    width: 840px;
     margin: auto;
     line-height: 1.5;
     margin-top: 50px;
@@ -4250,6 +4251,143 @@ thead {
         margin-left: 40px;
         font-size: 23px;
     }
+
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 921px) and (max-width: 1035px) {
+
+
+
+    .navImage img {
+        width: 180px;
+        margin-left: 15px;
+    }
+
+
+    .navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.link{
+position: relative;
+right: 60px;
+}
+
+
+
+
+.hero2-flex{
+margin-right: 660px;
+}
+
+.hero2-para1{
+margin-left: 70px;
+}
+
+
+.hero3-flex{
+width: 280px;
+}
+
+
+.hero3-para h2{
+font-size: 19px;
+}
+
+.hero3-para p{
+font-size: 17px;
+width: 80%;
+}
+
+.hero4-para2 h1{
+width: 550px;
+}
+
+.hero4-para3 p{
+width: 550px;
+}
+
+.hero4-flex3{
+gap: 40px;
+}
+
+.hero4-image3 img{
+width: 240px;
+left: 60%;
+}
+
+.hero4-image2 img{
+width: 270px;
+}
+
+.hero6-image2 img{
+width: 340px;
+}
+
+.hero5-para4{
+width: 220px;
+}
+
+.hero7-image img{
+width: 215px;
+}
+
+.hero7-para2{
+width: 215px;
+}
+
+.testimonial-wrapper{
+width: 910px;
+}
+
+.testimonial-card{
+width: 240px;
+}
+
+.hero9-table {
+overflow-x: auto;
+}
+
+.hero14-flex3{
+gap: 100px;
+}
+
+.hero14-image1 img{
+width: 430px;
+}
+
+
+
+.hero14-para2 p{
+width: 840px;
+
+}
+
+.hero14-para6 p{
+width: 840px;
+
+}
+
+
+.hero16-image{
+width: 220px;
+}
+
+.hero16-para{
+height: auto;
+padding-bottom: 110px;
+}
 
 
 

@@ -75,7 +75,7 @@ function Hero12() {
                         spaceBetween: 0,
                     },
 
-                     10234: {
+                     1035: {
                         slidesPerView: 3,
                         spaceBetween: 0,
                     },
