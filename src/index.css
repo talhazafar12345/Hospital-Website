@@ -668,6 +668,13 @@ thead {
     flex-direction: column;
 }
 
+
+
+.hero9-table {
+        overflow-x: auto;
+    }
+
+
 .hero10-para1 h2 {
     font-size: 28px;
     color: white;
@@ -2510,7 +2517,7 @@ thead {
     }
 
     .hero18-inp input {
-        width: 81%;
+        width: 90%;
         font-size: 18px;
     }
 
@@ -2529,7 +2536,7 @@ thead {
     }
 
     .hero20-inp input {
-        width: 80%;
+        width: 90%;
         font-size: 18px;
         padding-left: 10px;
     }
@@ -2567,8 +2574,8 @@ thead {
     }
 
     .error {
-        width: 100%;
-        margin-left: 38px;
+        width: 90%;
+        margin-left: 27px;
     }
 
 }
@@ -2842,6 +2849,7 @@ thead {
     .hero4-image3 img {
         position: absolute;
         top: 50%;
+        left: 30%;
         transform: translate(-175px);
         width: 80%;
         z-index: 2;
@@ -3674,6 +3682,7 @@ thead {
     .hero4-image3 img {
         position: absolute;
         top: 50%;
+        left: 30%;
         transform: translate(-175px);
         width: 80%;
         z-index: 2;
@@ -4390,8 +4399,42 @@ padding-bottom: 110px;
 }
 
 
+}
 
 
+@media screen and (min-width: 1036px) and (max-width: 1300px) {
 
+.hero2-para1{
+margin-left: 20px;
+}
+
+.hero5-para4{
+width: 270px;
+}
+
+.hero7-image img{
+width: 260px;
+}
+
+.hero7-para2{
+width: 260px;
+}
+
+.testimonial-wrapper{
+width:1100px;
+}
+
+.testimonial-card{
+width: 300px;
+}
+
+.hero16-image {
+width: 275px;
+}
+
+table{
+width: 1150px;
+}
 
 }
+
