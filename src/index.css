@@ -1739,7 +1739,7 @@ thead {
     }
 
     .hero14-image1 img {
-        width: 85%;
+        width: 80%;
         margin: auto;
     }
 
@@ -1806,7 +1806,7 @@ thead {
     }
 
     .hero16-image {
-        width: 85%;
+        width: 83%;
         padding-bottom: 60px;
     }
 
@@ -1856,13 +1856,13 @@ thead {
 
 
     .hero18-all {
-        width: 87%;
+        width: 82%;
         box-shadow: 2px 2px 5px gray;
 
     }
 
     .hero20-all {
-        width: 87%;
+        width: 82%;
         box-shadow: 2px 2px 5px gray;
 
     }
@@ -1871,9 +1871,6 @@ thead {
         font-size: 27px;
     }
 
-    .hero18-all {
-        margin-top: 90px;
-    }
 
     .error {
         width: 100%;
